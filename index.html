@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+bg-image {
+        background-image: url(
+          https://www.mixamo.com/images/panel2.jpg
+        );
+        background-color: azure;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    bg-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div id="bg-text"></div>
+    <div class="bg-image">
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+            <p>Imran a.salam</p>
+            <p>i'm Fullstack Developer</p>
+
+
+          </li>
+          <li>
+            <a href="#">About</a>
+            <p>I am is a passionate programmer with a keen eye for problem-solving and a love for technology. From a young age, i was fascinated by computers and their ability to transform ideas into reality. My journey into programming began as a hobby, but soon evolved into a deep-seated passion and career path.
+
+            </p>
+          </li>
+          <li>
+            <a href="#">Skills</a>
+            <p>Proficiency in programming languages (Python, Java, C++)</p>
+            <p>Proficiency in programming languages (e.g., Python, Java, C++)</p>
+            <p>Problem-solving and critical thinking abilities</p>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+            <p>Mobile App Development</p>
+
+          </li>
+          <li>
+            <a href="#">Contacts</a>
+            <form action="">
+              <label for="fname">name</label><br>
+              <input type="text" name="fname" id="name"><br>
+              <label for="email">gmail</label><br>
+              <input type="email" name="email" id="email">
+              <input type="submit" value="submit">
+
+
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    
+  </body>
+</html>

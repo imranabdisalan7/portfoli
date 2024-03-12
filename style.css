@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-image {
+    background-image: url(
+        https://storage.googleapis.com/pai-images/4dd8b722d19e4aaaa474902274efb9d3.jpeg
+    );
+    background-color: azure;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
